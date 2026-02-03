@@ -75,6 +75,7 @@ rmdir test_1  # remove empty directory
 rm -rf demo_2.tsv # force remove the files, use this with caution
 man cp # shows manual of cp 
 ```
+---
 
 ## Class 2: Streams and grep
 In this class we learned how to work with biological sequence files and use Linux commands to efficiently search, filter, and manipulate data.
@@ -131,6 +132,7 @@ grep -v "^>" tb1.fasta | grep --color"[^ATCG]" # -v: invert matching flag and '^
 ^ inside [ ] = NOT
 ^ outside [ ] = start of line
 
+---
 
 ## Class 3: File Viewing and grep
 This class focused on viewing large biological files, extracting relevant information, and automating simple tasks using Linux commands and bash scripting. These commands are essential for exploring large genomic annotation files, counting sequences, filtering unwanted data, and automating repetitive analyses in bioinformatics workflows.
@@ -192,6 +194,7 @@ echo "There are $(grep -c ">" tb1.fasta) entries in my fasta file"
 This command dynamically counts the number of sequences in a FASTA file and prints the result.
 Relevance to Bioinformatics
 ```
+--- 
 
 ## Class 4: Git for Scientists
 
@@ -271,7 +274,7 @@ Example:
 git pull origin main
 git clone https://github.com/username/repository.git
 ```
-
+---
 
 ## Class 5: Text Processing
 These commands are used to summarize and analyze large datasets efficiently.The techniques learned in this class are essential for preprocessing genomic files, extracting biologically meaningful information, validating datasets, and building reproducible bioinformatics pipelines.
@@ -340,11 +343,11 @@ join -1 1 -2 1 sorted.bed example_length.txt > join.bed
 - `-1 1` - Use column 1 of the first file (sorted.bed) as the join key
 - `-2 1` - Use column 1 of the second file (example_length) as the join key
 
+---
 
 ## Conclusion
-## Conclusion
 
-All the classes were insightful and helped me understand the importance of Linux and GitHub in bioinformatics. Bioinformatics involves the analysis of large-scale sequencing data, and most bioinformatics tools and pipelines, such as QIIME, are designed to run on Linux systems. Linux is faster, more efficient, and well suited for handling large datasets and command-line–based analyses.
+All the classes were insightful and helped me understand the importance of Linux and GitHub in bioinformatics. Bioinformatics involves the analysis of large-scale sequencing data, and most bioinformatics tools and pipelines, such as QIIME,MAFT,BLAST,SAMtools/BCFtools,FastQC,VEP, are designed to run on Linux systems. Linux is faster, more efficient, and well suited for handling large datasets and command-line–based analyses.
 
 GitHub is also an essential part of bioinformatics workflows, as it supports version control, reproducibility, and proper documentation of analyses. Sharing code and documentation through GitHub allows other bioinformaticians to understand, reproduce, and build upon existing work. Since bioinformatics often lacks sufficient documentation, using GitHub helps improve transparency and research quality.
 
