@@ -192,7 +192,6 @@ Example:
 ```bash
 echo "There are $(grep -c ">" tb1.fasta) entries in my fasta file"
 This command dynamically counts the number of sequences in a FASTA file and prints the result.
-Relevance to Bioinformatics
 ```
 --- 
 
