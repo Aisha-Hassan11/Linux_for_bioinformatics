@@ -130,6 +130,7 @@ Example:
 grep -v "^>" tb1.fasta | grep --color"[^ATCG]" # -v: invert matching flag and '^' used to denote beginning of the line
 ```
 ^ inside [ ] = NOT
+
 ^ outside [ ] = start of line
 
 ---
