@@ -208,6 +208,7 @@ Git helps scientists:
 - Collaborate efficiently
 - Avoid accidental data loss
 - Document the evolution of research workflows
+  
 It is widely used for managing bioinformatics pipelines, scripts, and documentation.
 
 
@@ -229,10 +230,12 @@ Git tracks files in three stages:
 1. Working directory – files being edited 
 2. Staging area – files marked for commit
 3. Repository – committed snapshots
+   
 Commands used:
 `git status`
 `git add filename`
 `git commit -m "Commit message"`
+
 only after git add filename the file starts to be tracked else their status remain untracked files
 
 #### 4. Tracking Changes
