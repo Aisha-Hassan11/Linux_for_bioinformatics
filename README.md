@@ -211,7 +211,7 @@ Git helps scientists:
 It is widely used for managing bioinformatics pipelines, scripts, and documentation.
 
 
-### 1. Configuring Git
+#### 1. Configuring Git
 Git configuration is done once to associate commits with a user.
 
 ```bash
@@ -284,6 +284,7 @@ git clone https://github.com/username/repository.git
 
 ## Class 5: Text Processing
 These commands are used to summarize and analyze large datasets efficiently.The techniques learned in this class are essential for preprocessing genomic files, extracting biologically meaningful information, validating datasets, and building reproducible bioinformatics pipelines.
+
 #### 1. Working with Specific Columns Using cut
 The cut command extracts specific columns from tab-delimited files such as BED, GTF, or TSV files.
 
