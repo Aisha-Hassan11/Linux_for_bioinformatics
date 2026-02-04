@@ -361,7 +361,7 @@ join -1 1 -2 1 sorted.bed example_length.txt > join.bed
 
 ## Conclusion
 
-All the classes were insightful and helped me understand the importance of Linux and GitHub in bioinformatics. Bioinformatics involves the analysis of large-scale sequencing data, and most bioinformatics tools and pipelines, such as QIIME,MAFT,BLAST,SAMtools/BCFtools,FastQC,VEP, are designed to run on Linux systems. Linux is faster, more efficient, and well suited for handling large datasets and command-line–based analyses.
+All the classes were insightful and helped me understand the importance of Linux and GitHub in bioinformatics. Bioinformatics involves the analysis of large-scale sequencing data, and most bioinformatics tools and pipelines, such as QIIME, MAFT, BLAST, SAMtools/BCFtools, FastQC, VEP, and more are designed to run on Linux systems. Linux is faster, more efficient, and well suited for handling large datasets and command-line–based analyses.
 
 GitHub is also an essential part of bioinformatics workflows, as it supports version control, reproducibility, and proper documentation of analyses. Sharing code and documentation through GitHub allows other bioinformaticians to understand, reproduce, and build upon existing work. Since bioinformatics often lacks sufficient documentation, using GitHub helps improve transparency and research quality.
 
