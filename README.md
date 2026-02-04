@@ -62,6 +62,7 @@ This command helps in checking all the available files.
 - `clear` - clear the screen
 - `history` - shows the history of command used in the terminal
 - `man` - shows manual of the command you need to know
+  
   Example:
 ```bash
 mkdir demo
@@ -86,6 +87,7 @@ Wildcards allow working with multiple files at once or to find part of a phrase 
 - `*` – Matches any number of characters  
 - `?` – Matches a single character  
 - `[ ]` – Matches one character from a specified set
+
 Example:
 ```bash
 touch sample{A,B,C}_R{1,2}.fastq
@@ -118,6 +120,7 @@ grep "geneX" file.gtf 2> error.log
 #### 3. Introduction to grep
 grep is used to search for patterns in files. This command is useful for finding motifs, genes, or sequence patterns.
 -v : an invert matching flag used in grep to display lines that do not contain the specified pattern, instead of those that do. 
+
 Example
 ```bash
 grep "ATCG" sequence.txt
@@ -241,6 +244,7 @@ only after git add filename the file starts to be tracked else their status rema
 - `git restore filename` – discard local changes
 - `git restore --staged filename` – unstage files
 - `git rm filename.txt` – remove file from Git tracking
+  
 Example:
 ```bash
 git restore --staged data.txt
@@ -250,6 +254,7 @@ git rm old_script.py
 #### 7. Renaming and Ignoring Files
 - `git mv create.txt create.py` - This tracks file renaming without losing history.
 - Files that should not be tracked (e.g., temporary files, large outputs) are listed in .gitignore.
+  
 Example:
 ```bash
 touch .gitignore
@@ -269,6 +274,7 @@ git push -u origin main
 #### 9. Working with Remote Repositories
 - `git pull` – fetch and merge changes from remote
 - `git clone` – copy a remote repository locally
+  
 Example:
 ```bash
 git pull origin main
@@ -298,6 +304,7 @@ a. `grep --color=always "ATCG" sequence.fasta`
   - works in redirected
   - this is better if you want to see less
   - Not recommended when saving output to a file, as color escape codes are included
+    
 Example:
 ```bash
 grep --color=always "ATCG" sequence.fasta | less
@@ -307,6 +314,7 @@ b. `grep --color=auto "ATCG" sequence.fasta`
   - highlight the matching pattern only when output goes to terminal
   - does nnot color piped or redirected output
   - Better when saving results to a file, as no color codes are written
+    
 Example:
 ```bash
 grep --color=auto "ATCG" sequence.fasta > matches.txt
@@ -318,6 +326,7 @@ Context options allow viewing surrounding lines of a match.
 - `-B` – Lines before the match
 - `-C` – Lines before and after the match
 - `-E` - searches for multiple pattern in a single command.
+  
 Example:
 ```bash
 grep -C 2 "gene_id" annotation.gtf
@@ -333,6 +342,7 @@ grep -E (geneA|geneB) annotation.gtf # '|' is OR in this
 - `sort` – Sort results
 - `uniq` – Filter unique entries
 - `join` – Combine files based on a common field. Both files MUST be sorted on the join column
+  
 Example:
 ```bash
 grep -cw "gene_id" annotation.gtf 
